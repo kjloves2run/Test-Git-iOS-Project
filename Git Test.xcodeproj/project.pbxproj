@@ -21,6 +21,7 @@
 		247EE96819B21DFF00EC302C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247EE94A19B21DFF00EC302C /* UIKit.framework */; };
 		247EE97019B21DFF00EC302C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 247EE96E19B21DFF00EC302C /* InfoPlist.strings */; };
 		247EE97219B21DFF00EC302C /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 247EE97119B21DFF00EC302C /* Git_TestTests.m */; };
+		247EE97D19B24AB500EC302C /* APPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 247EE97C19B24AB500EC302C /* APPTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		247EE96D19B21DFF00EC302C /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		247EE96F19B21DFF00EC302C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		247EE97119B21DFF00EC302C /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		247EE97B19B24AB500EC302C /* APPTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPTest.h; sourceTree = "<group>"; };
+		247EE97C19B24AB500EC302C /* APPTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				247EE95C19B21DFF00EC302C /* APPViewController.m */,
 				247EE95E19B21DFF00EC302C /* Images.xcassets */,
 				247EE94D19B21DFF00EC302C /* Supporting Files */,
+				247EE97B19B24AB500EC302C /* APPTest.h */,
+				247EE97C19B24AB500EC302C /* APPTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				247EE95D19B21DFF00EC302C /* APPViewController.m in Sources */,
+				247EE97D19B24AB500EC302C /* APPTest.m in Sources */,
 				247EE95719B21DFF00EC302C /* APPAppDelegate.m in Sources */,
 				247EE95319B21DFF00EC302C /* main.m in Sources */,
 			);
